@@ -1,0 +1,6 @@
+version: '3'
+services:
+  dns-server:
+    ports:
+      - 127.0.0.1:5050:53/udp
+      - 127.0.0.1:5050:53/tcp

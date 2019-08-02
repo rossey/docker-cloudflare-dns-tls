@@ -2,6 +2,7 @@ version: '3'
 services:
   dns-server:
     build: .
+    image: arm32v6/alpine
     container_name: dns-server
     ports:
       - 53:53/udp
